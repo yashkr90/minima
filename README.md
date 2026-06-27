@@ -1,27 +1,28 @@
 # Minima Game — installable web app (self-contained build)
 
-This is a real production build — React is bundled directly into the JS file,
-not loaded from any external CDN. It will not show a blank page due to a
-blocked network request.
+React is bundled directly into the JS file — no external CDN calls, so it
+won't blank out on networks that block third-party scripts.
 
-## Host it (pick one, ~2 minutes)
+## Host it permanently (pick one)
 
-**Netlify Drop (fastest, no account needed)**
-1. Go to https://app.netlify.com/drop
-2. Drag this whole folder onto the page
-3. You'll get a live URL like https://random-name.netlify.app
+**Claim your Netlify Drop site**
+After dragging the folder to https://app.netlify.com/drop, click "Claim this
+site" and sign up free — same URL, no more 1-hour expiry.
 
-**GitHub Pages**
-1. Create a new repo, upload everything in this folder
-2. Settings → Pages → source = main branch, root folder
-3. URL: https://yourusername.github.io/reponame
+**GitHub Pages (free, never expires)**
+1. New repo on github.com → upload all files in this folder
+2. Settings → Pages → Source: deploy from branch → main / root
+3. Live at https://yourusername.github.io/reponame
 
 ## Install on your phone
 1. Open the live URL in Chrome on Android
-2. Tap ⋮ → Add to Home screen (or accept the Install prompt)
-3. It now opens full-screen from your home screen, works offline
+2. ⋮ → Add to Home screen
+3. Opens full-screen like a native app, works offline
+
+## Entering negative scores
+Tap the **±** button next to a score box to flip it negative — mobile number
+keyboards usually hide the minus key, so this works around that.
 
 ## Your data
-Saved on-device via localStorage — nothing leaves your phone, nothing gets
-wiped between opens. If you ever clear your browser's site data for this URL,
-that would reset it (same as any installed web app), but normal use is safe.
+Saved on-device via localStorage. Persists between opens as long as you don't
+clear that site's browser data.
